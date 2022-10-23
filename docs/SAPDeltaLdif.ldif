@@ -1,0 +1,20 @@
+dn: cn=TEST1,dc=sap,dc=nextlabssg,dc=com
+changetype:add
+objectclass: user
+objectGUID: TEST1
+UNIQUE_ID: TEST1
+HRC_LEGAL_ENTITY_CODE: SG012
+
+dn: cn=TEST12,dc=sap,dc=nextlabssg,dc=com
+changetype:delete
+objectclass: user
+objectGUID: TEST12
+UNIQUE_ID: TEST12
+HRC_LEGAL_ENTITY_CODE: SG012
+
+dn: cn=TEST14,dc=sap,dc=nextlabssg,dc=com
+changetype:add
+objectclass: user
+objectGUID: TEST14
+UNIQUE_ID: TEST14
+HRC_LEGAL_ENTITY_CODE: SG012
